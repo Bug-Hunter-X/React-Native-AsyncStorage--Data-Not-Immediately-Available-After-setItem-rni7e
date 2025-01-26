@@ -1,0 +1,1 @@
+This React Native bug arises when using AsyncStorage to store data. The issue is that the data is not immediately available after being set, even though the `setItem` call appears to succeed. This leads to unexpected behavior where components try to access the data before it's been persisted.
